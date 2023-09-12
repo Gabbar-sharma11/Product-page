@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header ,footer{
+    background-color:rgb(180, 245, 155);
+    padding: 20px;text-align: center;
+}
+main{
+    margin: 20px;
+    text-align: center;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 20px;
+    border: 1px solid #edcfcf;
+    background-color: rgb(180, 245, 155);
+    border-radius: 5px;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.about-product{
+    
+    margin-bottom:75px;
+    max-width: 400px;
+    text-align: left;  
+}
+.about-product h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    
+}
+.price{
+    color: rgb(206, 138, 21);
+    font-size: 1.4rem;
+}
+.about-product p{
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+.btn{
+    background-color: rgb(41, 37, 231);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color: rgb(215, 144, 31);
+}
